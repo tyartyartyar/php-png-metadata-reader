@@ -1,0 +1,26 @@
+{
+    "name": "tyar/png-metadata-reader",
+    "description": "Library to extract the metadata from PNG file for php",
+    "type": "library",
+    "require": {
+        "ext-exif": "*",
+        "ext-gd": "*"
+    },
+	"version": "0.1.0",
+    "require-dev": {
+        "roave/security-advisories": "master"
+    },
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "PNGMetadataReader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hikmatyar Mujahidin",
+            "email": "hikmatyar098@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
